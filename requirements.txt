@@ -1,0 +1,3 @@
+cloudscraper>=1.2.71    ## needed to bypass cloudfront check
+requests>=2.32.0        ## updated for Python 3.14 compatibility
+wheel                   ## fails without in pi (https://stackoverflow.com/questions/34819221/why-is-python-setup-py-saying-invalid-command-bdist-wheel-on-travis-ci)
